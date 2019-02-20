@@ -22,5 +22,5 @@ app.use('/listings', listing)
 const port = (process.env.PORT || 5000)
 
 app.listen(port, () => {
-  console.log(`Server is up and running on ${port}`)
+  console.log(`Server is up and running on: ${port}`)
 })
