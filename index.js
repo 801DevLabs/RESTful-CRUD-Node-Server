@@ -19,7 +19,7 @@ app.use(bodyParser.urlencoded({extended: false}))
 
 app.use('/listings', listing)
 
-const port = 8585
+const port = (process.env.PORT || 8585)
 
 app.listen(port, () => {
   console.log(`Server is up and running on ${port}`)
