@@ -17,7 +17,7 @@ const app = express()
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: false}))
 
-app.use('/listings', listing)
+app.use('/', listing)
 
 const port = (process.env.PORT || 5000)
 
