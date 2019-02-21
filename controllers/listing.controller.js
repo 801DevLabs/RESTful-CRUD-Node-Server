@@ -6,7 +6,9 @@ exports.test = (req, res, next) => {
 
 exports.view_all = (req, res, next) => {
   Listing.find({})
-  .then((allListings) => res.json(allListings))
+  .then(result => {
+    res.send(result)
+  })
 }
 
 exports.listing_city = (req, res, next) => {
