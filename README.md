@@ -8,7 +8,7 @@ Testing API endpoints with Postman
 "/city/:city" - Gets all listings within a city  
 "/state/:state" - Gets all listings within a state  
 example - https://intense-bastion-27297.herokuapp.com/city/orem  
-city search: - orem, vineyard, provo, washington, st-george  
+city search - orem, vineyard, provo, washington, st-george  
 state search - utah  
 
 
